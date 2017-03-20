@@ -97,8 +97,7 @@ articleView.create = function() {
     body: $('#article-body').val(),
     publishedOn: $('#article-published:checked').length ? new Date() : null
   });
-console.log(newArticle);
-console.log(newArticle.publishedOn);
+
   // TODO: Use our interface to the Handblebars template to put this new article into the DOM:
   $('#articles').append(newArticle.toHtml());
 
