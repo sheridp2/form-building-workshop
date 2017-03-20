@@ -67,6 +67,7 @@ articleView.setTeasers = function() {
 };
 
 articleView.initNewArticlePage = function() {
+  articleView.handleMainNav();
   // TODO: Ensure the main .tab-content area is revealed. We might add more tabs later.
   $('.tab-content').show();
 
